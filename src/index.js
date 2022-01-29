@@ -34,7 +34,7 @@ window
             imagen.src = `${baseUrl}${item.image}`;
 
             //craer titulo
-            const title = document.createElement('h2');
+            const title = document.createElement('h3');
             title.className = "text-lg";
             title.textContent = item.name;
 
